@@ -3,8 +3,8 @@ import os
 
 def base_config():
 
-    access_key = "AKIAJRV3ELXWYFIFLUGA"
-    secret_key = "wiVmIaYBF6Bubjim6uAsHqCbEHqxdsgYfE0X/es7"
+    access_key = "your access_key"
+    secret_key = "your secret_key"
     # url = "http://eos-beijing-1.cmecloud.cn"
     session = Session(access_key, secret_key)
     s3_client = session.client('s3')  # , endpoint_url=url
