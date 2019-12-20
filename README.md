@@ -1,4 +1,4 @@
-####前沿
+#### 前沿
 >能够流程化的业务尽量自动化。提高效率，最大程度的商业化才是首要。
 
 
@@ -14,7 +14,7 @@
 
 >本片文章主要介绍第二步，第三步，第四步
 
-####第二步：对文件重命名&生成json
+#### 第二步：对文件重命名&生成json
 ```
 rename_json.py
 ```
@@ -27,7 +27,7 @@ rename_json.py
 ![生成json.png](https://upload-images.jianshu.io/upload_images/1745735-f71aaa972e74a6cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-####第三步：连接数据库&建表&入库
+#### 第三步：连接数据库&建表&入库
 ```
 json_to_mysql.py
 ```
@@ -44,7 +44,7 @@ json_to_mysql.py
 ![入库.png](https://upload-images.jianshu.io/upload_images/1745735-c2005d94bdf77057.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-#####第四步：连接S3&创建目录&批量上传资源
+##### 第四步：连接S3&创建目录&批量上传资源
 ```
 file_to_s3.py
 ```
@@ -60,7 +60,7 @@ file_to_s3.py
 
 ![批量上传资源.png](https://upload-images.jianshu.io/upload_images/1745735-d26386b6b5933a9c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####最后
+#### 最后
 
 不管大佬们关不关注公众号，我都会放上本章的[Demo](https://github.com/GeeksChen/autoDataProcessing)
 
